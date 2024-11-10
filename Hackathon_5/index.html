@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Resume form</h1>
+    <form id="form">
+        <h2>Personal Details</h2>
+        <hr style="border: 2px solid #414def;"><br>
+        
+            <fieldset>
+                <div class="form-group">
+                    <label class="label" for="name">Name:</label>
+                    <input class="input" type="text" id="name" placeholder="Enter your name">
+                </div>
+                
+                <div class="form-group">
+                    <label class="label" for="phone">Phone:</label>
+                    <input class="input" type="tel" id="phone" placeholder="Enter your Phone no.">
+                </div>
+                <div class="form-group">
+                    <label class="label" for="email">Email:</label>
+                    <input class="input" type="email" id="email" placeholder="e.g. abc@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label class="label" for="addrs">Address:</label>
+                    <input class="input" type="text" id="addrs" placeholder="Enter your Address">
+                </div>
+
+                <div class="form-group">
+                    <label class="label" for="pic">Profile Picture:</label>
+                    <input class="input" type="file" id="pic">
+                </div>
+            </fieldset>
+
+
+            <h2 style="padding-top: 8px;">Education</h2>
+            <hr style="border: 2px solid #414def;"><br>
+            <fieldset>
+                <div class="form-group">
+                    <label class="label" for="pass">Passing Year:</label>
+                    <input class="input" type="number" id="pass1" min="1980" max="2050" step="1" placeholder="e.g. 2001"
+                    >
+                </div>
+                <div class="form-group">
+                    <label class="label" for="deg">Degree:</label>
+                    <input class="input" type="text" id="deg1" placeholder="degree/certificate/course"
+                    >
+                </div>
+                <div class="form-group">
+                    <label class="label" for="uni">Institute:</label>
+                    <input class="input" type="text" id="uni1">
+                </div>
+                <div class="form-group">
+                    <label class="label" for="pass">Passing Year:</label>
+                    <input class="input" type="number" id="pass2" min="1980" max="2050" step="1" placeholder="e.g. 2001"
+                    >
+                </div>
+                <div class="form-group">
+                    <label class="label" for="deg">Degree:</label>
+                    <input class="input" type="text" id="deg2" placeholder="degree/certificate/course"
+                    >
+                </div>
+                <div class="form-group">
+                    <label class="label" for="uni">Institute:</label>
+                    <input class="input" type="text" id="uni2">
+                </div>
+            </fieldset>
+            <h2 style="padding-top: 8px;">Skills</h2>
+            <hr style="border: 2px solid #414def;"><br>
+            <fieldset>
+                <div class="form-group">
+                    <label class="label" for="skill">Skills:</label>
+                    <input class="input mb-20" type="text" id="skill1">
+                    <input class="input mb-20" type="text" id="skill2">
+                    <input class="input mb-20" type="text" id="skill3">
+                </div>
+            </fieldset>
+
+            <h2 style="padding-top: 8px;">Language</h2>
+            <hr style="border: 2px solid #414def;"><br>
+            <fieldset>
+                <div class="form-group">
+                    <label class="label" for="lan">Language 1:</label>
+                    <input class="input mb-20" type="text" id="lan1">
+                    <label class="label" for="lan">Language 2:</label>
+                    <input class="input mb-20" type="text" id="lan2">
+                </div>
+            </fieldset>
+            <h2 style="padding-top: 8px;">Experience</h2>
+            <hr style="border: 2px solid #414def;"><br>
+            <fieldset>
+                <div class="form-group">
+                    <label class="label" for="styear">Start Year:</label>
+                    <input class="input mb-20" type="number" id="styear" min="1980" max="2050" step="1"
+                        placeholder="e.g. 2001">
+                    <label class="label" for="edyear">End Year:</label>
+                    <input class="input mb-20" type="number" id="edyear" min="1980" max="2050" step="1"
+                        placeholder="e.g. 2001">
+
+                    <label class="label" for="company">Company:</label>
+                    <input class="input mb-20" type="text" id="company">
+                    <label class="label" for="comloca">Company Location:</label>
+                    <input class="input mb-20" type="text" id="comloca">
+                    <label class="label" for="jbtle">Job Title:</label>
+                    <input class="input mb-20" type="text" id="jbtle">
+                   
+                </div>
+            </fieldset>
+            <br>
+            <hr style="margin-bottom: 20px;">
+            <div class="btn"> <input id="subbtn" class="submit" type="submit"></div>
+        
+
+        <a href="./Resume_1/resume.html"></a>
+    </form>
+
+    </body>
+    <script src="script.js"></script>
+
+</html>
